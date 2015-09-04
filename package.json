@@ -1,0 +1,18 @@
+{
+  "name": "PdfParser",
+  "private": true,
+  "version": "0.0.0",
+  "description": "parse specific pdf",
+  "dependencies": {
+    "pdf2json":"*",
+  },
+  "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js"
+  },
+  "main": "./js/reader.js",
+  "repository": "",
+  "author": "",
+  "license": "",
+}
+
